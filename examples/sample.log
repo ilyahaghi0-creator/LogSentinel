@@ -1,0 +1,6 @@
+Oct 14 09:00:01 workstation sshd[1032]: Failed password for invalid user guest from 203.0.113.17 port 40210 ssh2
+Oct 14 09:00:04 workstation sshd[1032]: Failed password for root from 203.0.113.17 port 40212 ssh2
+Oct 14 09:01:11 workstation sudo: karen : TTY=pts/0 ; PWD=/home/karen ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Oct 14 09:03:44 workstation systemd[1]: example-worker.service failed to start
+{"timestamp":"2026-10-14T09:05:00Z","message":"firewall disabled by administrator","host":"workstation","service":"audit"}
+Oct 14 09:06:00 workstation sshd[1038]: Accepted publickey for karen from 192.0.2.44 port 51222 ssh2

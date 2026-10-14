@@ -1,0 +1,10 @@
+[
+  {
+    "id": "CUSTOM-001",
+    "title": "Example test marker",
+    "severity": "info",
+    "pattern": "\\bEXAMPLE_MARKER\\b",
+    "description": "An example custom pattern matched a log line.",
+    "recommendation": "Replace this sample with a pattern relevant to your environment."
+  }
+]

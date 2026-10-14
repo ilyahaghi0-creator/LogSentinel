@@ -1,0 +1,16 @@
+LogSentinel v0.1.0 — verification record
+
+Environment: Python 3 available in the build environment; tests run against source via PYTHONPATH=src.
+
+Unit tests:
+  Command: PYTHONPATH=src python3 -m unittest discover -s tests -v
+  Result: PASS — 10 tests, 0 failures, 0 errors.
+
+Smoke checks:
+  - Text CLI report on examples/sample.log: PASS.
+  - JSON CLI report parses as valid JSON: PASS.
+  - Sample log detects authentication-failure and security-control-change indicators: PASS.
+  - CLI accepts examples/custom_rules.json: PASS.
+  - Python compileall on src and tests: PASS.
+
+Scope note: these are automated correctness checks for this starter version, not a security audit or proof of detection quality on real-world logs.
